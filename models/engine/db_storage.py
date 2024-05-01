@@ -17,19 +17,11 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 
 classes = {"Amenity": Amenity, "City": City,
- storage_get_count
 	"Place": Place, "Review": Review, "State": State, "User": User}
 
 
 class DBStorage:
-    """Interacts with the MySQL database"""
-
-           "Place": Place, "Review": Review, "State": State, "User": User}
-
-
-class DBStorage:
     """interaacts with the MySQL database"""
- master
     __engine = None
     __session = None
 
